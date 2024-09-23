@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-east-1",
+        "exclude": [
+            "boto3",
+            "botocore",
+            "concurrent"
+        ],
+        "profile_name": "default",
+        "project_name": "flask-zappa-app",
+        "runtime": "python3.10",
+        "s3_bucket": "zappa-pj5uhsban"
+    }
+}
+
